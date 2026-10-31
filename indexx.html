@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Coffee Shop in Portland, OR. Find your taste with espresso, lattes and fresh pastries.">
+    <title>Coffee Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/stylee.css">
+</head>
+
+<body>
+    <div class="top" id="home">
+    <!-- Header -->
+    <header class="head">
+        <h1 class="logo">Coffee</h1>
+        <nav>
+            <ul class="unlist">
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#explore">Explore</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#story">Story</a></li>
+            </ul>
+        </nav>
+        <a class="btn btn-small" href="#contact">Order Now</a>
+    </header>
+
+        <!-- Hero text sits on the header background picture -->
+        <section class="hero">
+            <div class="font">
+                <div class="hero-text">
+                    <p class="line">Find Your Taste <span>With Us.</span></p>
+                    <p class="subline">Freshly roasted beans, brewed with care and served slowly, made with the finest ingredients and a whole lot of love.</p>
+                    <a class="btn btn-dark" href="#explore">Explore Our Menu</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <main>
+        <!-- Small highlights -->
+        <section class="highlights">
+            <div class="highlight">
+                <span class="icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#4a2a22" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9h11v5a5 5 0 0 1-5 5H10a5 5 0 0 1-5-5V9Zm11 1h2a2.5 2.5 0 0 1 0 5h-2M8 3c-1 1.2 1 2.2 0 3.5M12 3c-1 1.2 1 2.2 0 3.5"/></svg>
+                </span>
+                <div>
+                    <h3>Freshly Roasted</h3>
+                    <p>Small batches, roasted every week.</p>
+                </div>
+            </div>
+            <div class="highlight">
+                <span class="icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#4a2a22" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19C5 10 10 5 20 4c0 10-5 15-14 15M5 19l8-8"/></svg>
+                </span>
+                <div>
+                    <h3>Ethically Sourced</h3>
+                    <p>Direct partnerships with trusted farms.</p>
+                </div>
+            </div>
+            <div class="highlight">
+                <span class="icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#4a2a22" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.600-7 10-7 10Z"/></svg>
+                </span>
+                <div>
+                    <h3>Made For You</h3>
+                    <p>Every cup is crafted to your taste.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Three colored cards -->
+        <section class="cards" id="explore">
+            <article class="card card-pink">
+                <h2>Classic<br>Coffee</h2>
+                <img src="images/americano.jpg" alt="Black coffee in a white cup with a spoon" loading="lazy">
+                <div class="card-foot">
+                    <p>Clean, deep and dark.<br>Nothing hiding.</p>
+                </div>
+            </article>
+            <article class="card card-beige">
+                <h2>Silky<br>Lattes</h2>
+                <img src="images/latte.jpg" alt="Latte with leaf latte art" loading="lazy">
+                <div class="card-foot">
+                    <p>Smooth, creamy &amp;<br>Irresistible.</p>
+                </div>
+            </article>
+            <article class="card card-lilac">
+                <h2>Pure<br>Espresso</h2>
+                <img src="images/espresso.jpg" alt="Espresso with golden crema" loading="lazy">
+                <div class="card-foot">
+                    <p>Rich, bold, pulled<br>fresh for you.</p>
+                </div>
+            </article>
+        </section>
+        <div class="more">
+            <div class="extra types" id="more-types" hidden>
+                <article class="card card-pink">
+                    <h2>Flat<br>White</h2>
+                    <img src="images/flatwhite.jpg" alt="Flat white with rosetta latte art" loading="lazy">
+                    <div class="card-foot">
+                        <p>Double shot, velvety<br>microfoam.</p>
+                    </div>
+                </article>
+                <article class="card card-beige">
+                    <h2>Cappuccino</h2>
+                    <img src="images/cappuccino.jpg" alt="Cappuccino with heart latte art and cocoa" loading="lazy">
+                    <div class="card-foot">
+                        <p>Espresso, milk and<br>airy foam.</p>
+                    </div>
+                </article>
+                <article class="card card-lilac">
+                    <h2>Macchiato</h2>
+                    <img src="images/macchiato.jpg" alt="Macchiato in a glass cup with a dollop of foam" loading="lazy">
+                    <div class="card-foot">
+                        <p>Espresso stained with<br>a spoon of foam.</p>
+                    </div>
+                </article>
+                <article class="card card-pink">
+                    <h2>Cortado</h2>
+                    <img src="images/latte.jpg" alt="Cortado with latte art" loading="lazy">
+                    <div class="card-foot">
+                        <p>Espresso softened<br>with warm milk.</p>
+                    </div>
+                </article>
+                <article class="card card-beige">
+                    <h2>Mocha</h2>
+                    <img src="images/pastry.jpg" alt="Mocha with pastries" loading="lazy">
+                    <div class="card-foot">
+                        <p>Espresso, milk and<br>dark chocolate.</p>
+                    </div>
+                </article>
+                <article class="card card-lilac">
+                    <h2>Cold<br>Brew</h2>
+                    <img src="images/cold-brew.jpg" alt="Cold brew coffee in a mug" loading="lazy">
+                    <div class="card-foot">
+                        <p>Steeped 18 hours,<br>smooth and sweet.</p>
+                    </div>
+                </article>
+                <article class="card card-pink">
+                    <h2>Iced<br>Latte</h2>
+                    <img src="images/iced-latte.jpg" alt="Iced latte in a glass with a straw" loading="lazy">
+                    <div class="card-foot">
+                        <p>Our silky latte<br>over ice.</p>
+                    </div>
+                </article>
+                <article class="card card-beige">
+                    <h2>Affogato</h2>
+                    <img src="images/affogato.jpg" alt="Affogato with vanilla ice cream in espresso" loading="lazy">
+                    <div class="card-foot">
+                        <p>Vanilla ice cream<br>drowned in espresso.</p>
+                    </div>
+                </article>
+                <article class="card card-lilac">
+                    <h2>Pour<br>Over</h2>
+                    <img src="images/pour-over.jpg" alt="Pour over coffee brewing in a glass dripper" loading="lazy">
+                    <div class="card-foot">
+                        <p>Single-origin, brewed<br>by hand.</p>
+                    </div>
+                </article>
+            </div>
+            <button class="btn btn-mauve" type="button" data-toggle="#more-types" data-open="More Coffee Types" data-close="Show Fewer Types" aria-expanded="false" aria-controls="more-types">More Coffee Types</button>
+        </div>
+
+        <!-- Reviews -->
+        <section class="reviews" id="reviews">
+            <h2>What Our Guests Say</h2>
+            <div class="quotes">
+                <blockquote>
+                    <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+                    <p>The best cappuccino in Portland. I come here every morning.</p>
+                    <cite>Anna K.</cite>
+                </blockquote>
+                <blockquote>
+                    <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+                    <p>Cozy place, friendly staff and the flat white is unbeatable.</p>
+                    <cite>Michael T.</cite>
+                </blockquote>
+            </div>
+            <div class="extra quotes" id="more-reviews" hidden>
+                <blockquote>
+                    <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+                    <p>I came in for a quick espresso and stayed two hours. It feels like a home away from home.</p>
+                    <cite>Sofia R.</cite>
+                </blockquote>
+                <blockquote>
+                    <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+                    <p>The cold brew is smooth and never bitter. I order it every time the sun comes out.</p>
+                    <cite>Daniel W.</cite>
+                </blockquote>
+                <blockquote>
+                    <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+                    <p>They remembered my name and my order after the second visit. That is rare.</p>
+                    <cite>Priya N.</cite>
+                </blockquote>
+                <blockquote>
+                    <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+                    <p>Perfect place to study. Quiet corners, great latte and the pastries disappear fast.</p>
+                    <cite>Lucas M.</cite>
+                </blockquote>
+                <blockquote>
+                    <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+                    <p>You can tell the beans are fresh the moment you walk in. The smell alone is worth it.</p>
+                    <cite>Emma L.</cite>
+                </blockquote>
+                <blockquote>
+                    <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+                    <p>Beautiful cups, beautiful latte art and a barista who actually asks how you like your coffee.</p>
+                    <cite>Hannah B.</cite>
+                </blockquote>
+                <blockquote>
+                    <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+                    <p>Our Saturday coffee date spot. The affogato is dangerously good.</p>
+                    <cite>Chris &amp; Mia</cite>
+                </blockquote>
+                <blockquote>
+                    <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+                    <p>A cortado and a pastry on my way to work. Best five minutes of my day.</p>
+                    <cite>Jonas P.</cite>
+                </blockquote>
+            </div>
+            <button class="btn btn-mauve" type="button" data-toggle="#more-reviews" data-open="Read More Reviews" data-close="Show Fewer Reviews" aria-expanded="false" aria-controls="more-reviews">Read More Reviews</button>
+        </section>
+
+        <!-- Perfect pair -->
+        <section class="pair" id="story">
+            <img class="pair-img" src="images/pastry.jpg" alt="Espresso served with fresh pastries" loading="lazy">
+            <div class="pair-text">
+                <h2>Perfect Pair<br>Every Time</h2>
+                <svg class="squiggle" width="70" height="12" viewBox="0 0 60 10" fill="none" stroke="#a06f6f" stroke-width="1.4" stroke-linecap="round" aria-hidden="true"><path d="M2 5c5-6 8 6 13 0s8 6 13 0 8 6 13 0 5 3 7 1"/></svg>
+                <p>From rich espresso to creamy flat whites, our coffee is the perfect companion to your favorite treats.</p>
+                <button class="btn btn-mauve" type="button" data-toggle="#story-full" data-hide-when-open data-open="Read Our Story" data-close="Close Our Story" aria-expanded="false" aria-controls="story-full">Read Our Story</button>
+            </div>
+        </section>
+
+        <!-- Our story (opens in place) -->
+        <section class="story-full" id="story-full" hidden>
+            <p class="kicker">Our story</p>
+            <h2 class="story-title">A Little Shop With a Big Love for Coffee</h2>
+
+            <div class="story-block">
+                <img src="images/latte.jpg" alt="Latte with leaf latte art" loading="lazy">
+                <div>
+                    <h3>How it started</h3>
+                    <p>Coffee Shop began with a simple idea: everyone has a taste of their own, and a good cup should help you find it. On a rainy Portland morning in 2026 we opened the doors of a tiny corner space on Maple Street with one espresso machine, a handful of tables and a lot of nerves.</p>
+                    <p>Within a week the tables were full. Neighbors turned into regulars, regulars turned into friends, and the corner quickly became the place people stopped before work, after school and on slow Sunday afternoons.</p>
+                </div>
+            </div>
+
+            <div class="story-block reverse">
+                <img src="images/flatwhite.jpg" alt="Flat white with rosetta latte art" loading="lazy">
+                <div>
+                    <h3>From the farm to your cup</h3>
+                    <p>We buy our beans in small batches from farms we trust and roast them every week, so what you drink is always fresh. We talk to the people who grow the coffee, pay them fairly and choose beans for flavor first, not for the label.</p>
+                    <p>Then it is our turn. We grind to order, pull every shot by hand and pour the milk slowly, because the last few seconds of a coffee are the ones you taste.</p>
+                </div>
+            </div>
+
+            <p class="pull">Find your taste. Not ours, not a trend. Yours.</p>
+
+            <div class="values">
+                <div class="value">
+                    <span class="icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#4a2a22" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9h11v5a5 5 0 0 1-5 5H10a5 5 0 0 1-5-5V9Zm11 1h2a2.5 2.5 0 0 1 0 5h-2M8 3c-1 1.2 1 2.2 0 3.5M12 3c-1 1.2 1 2.2 0 3.5"/></svg></span>
+                    <h3>Freshly Roasted</h3>
+                    <p>Small batches, roasted every week and brewed within days.</p>
+                </div>
+                <div class="value">
+                    <span class="icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#4a2a22" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19C5 10 10 5 20 4c0 10-5 15-14 15M5 19l8-8"/></svg></span>
+                    <h3>Ethically Sourced</h3>
+                    <p>Direct partnerships with farms that treat people and land well.</p>
+                </div>
+                <div class="value">
+                    <span class="icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#4a2a22" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.600-7 10-7 10Z"/></svg></span>
+                    <h3>Made For You</h3>
+                    <p>Every cup is crafted to your taste, exactly how you like it.</p>
+                </div>
+            </div>
+
+            <div class="story-end">
+                <h3>Today and tomorrow</h3>
+                <p>We are still a small shop, and we like it that way. We still know most of our guests by name, we still change the menu with the seasons and we still believe that a good coffee is the easiest way to slow down for a minute.</p>
+                <p>Come in, pick a table by the window and tell us how you like your coffee. We would love to be part of your story, too.</p>
+                <div class="story-actions">
+                    <a class="btn btn-dark" href="#contact">Visit Us Today</a>
+                    <button class="btn btn-mauve" type="button" data-toggle="#story-full" data-always data-open="Read Our Story" data-close="Close Our Story" aria-expanded="true" aria-controls="story-full">Close Our Story</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer: mauve torn-paint top edge -->
+    <footer id="contact">
+        <div class="foot-grid">
+            <div class="name">
+                <h2 class="logo logo-light">Coffee</h2>
+                <p>Find Your Taste. Sweeten your special moments with our handcrafted coffee and delightful treats.</p>
+            </div>
+            <div class="quick">
+                <p class="foot-title">Quick Links</p>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#explore">Explore</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#story">Story</a></li>
+                </ul>
+            </div>
+            <div class="service">
+                <p class="foot-title">Services:</p>
+                <ul>
+                    <li>For Here</li>
+                    <li>To Go</li>
+                </ul>
+                <p class="foot-title foot-gap">Social Media:</p>
+                <ul>
+                    <li><a class="social-link" href="#" onclick="return false;">Telegram</a></li>
+                    <li><a class="social-link" href="#" onclick="return false;">Instagram</a></li>
+                    <li><a class="social-link" href="#" onclick="return false;">Tik Tok</a></li>
+                    <li><a class="social-link" href="#" onclick="return false;">Whatsapp</a></li>
+                </ul>
+            </div>
+            <div class="address">
+                <p class="foot-title">Our Address:</p>
+                <p>123 Maple Street, Suite 4B<br>Portland, OR 97201</p>
+                <p class="foot-title foot-gap">Opening Hours:</p>
+                <p>Mon - Fri: 7:00 - 19:00<br>Sat - Sun: 8:00 - 20:00</p>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2026 Coffee Shop. All Coffee Types Done.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
